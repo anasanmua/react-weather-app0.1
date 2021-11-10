@@ -1,0 +1,23 @@
+.Weather {
+  border: 2px solid #dfe0e4;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+.credit {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  cursor: pointer;
+  color: #113cfc;
+  text-decoration: underline;
+}
