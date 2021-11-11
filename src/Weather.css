@@ -1,11 +1,9 @@
 .Weather {
   border: 2px solid #dfe0e4;
   border-radius: 4px;
-  margin: 20px;
+  margin: 20px auto;
   padding: 20px;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 5px;
 }
 .credit {
@@ -20,4 +18,34 @@
   cursor: pointer;
   color: #113cfc;
   text-decoration: underline;
+}
+ul {
+  list-style: none;
+}
+
+.button {
+  width: 85%;
+}
+.sun-icon {
+  display: inline-block;
+  height: 60px;
+  margin-top: unset;
+  vertical-align: top;
+  width: 60px;
+}
+.temperature {
+  color: #202124;
+  display: inline-block;
+  font-size: 48px;
+  line-height: 60px;
+  vertical-align: top;
+}
+.units {
+  color: #202124;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 6px;
+  padding-left: 6px;
+  vertical-align: top;
 }
