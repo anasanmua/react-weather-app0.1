@@ -1,54 +1,49 @@
 .Weather {
-  border: 2px solid #dfe0e4;
+  font-family: arial, sans-serif;
+  border: 1px solid #dadde1;
+  padding: 16px;
   border-radius: 4px;
-  margin: 20px auto;
-  padding: 20px;
-  width: 70%;
-  margin-bottom: 5px;
+  color: rgb(135, 135, 135);
 }
-.credit {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
 }
-h1 {
-  margin-top: 5px;
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
 }
-.link {
-  text-decoration: none;
-}
-.link:hover {
-  cursor: pointer;
-  color: #113cfc;
-  text-decoration: underline;
-}
-ul {
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
   list-style: none;
 }
 
-.button {
-  width: 85%;
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
 }
-.sun-icon {
-  display: inline-block;
-  height: 60px;
-  margin-top: unset;
-  vertical-align: top;
-  width: 60px;
+
+.Weather canvas {
+  margin: 10px auto;
 }
-.temperature {
-  color: #202124;
-  display: inline-block;
-  font-size: 48px;
-  line-height: 60px;
-  vertical-align: top;
-}
-.units {
-  color: #202124;
-  display: inline-block;
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
   font-size: 16px;
-  line-height: 24px;
-  margin-top: 6px;
-  padding-left: 6px;
-  vertical-align: top;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
 }
